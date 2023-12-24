@@ -12,6 +12,12 @@ class RoutinesController < ApplicationController
       render json: routine.errors, status: 422
     end
   end
+  def update
+  end
+
+  def destroy
+  end
+
 
   private
   def routine_params
